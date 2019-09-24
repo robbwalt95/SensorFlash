@@ -1,0 +1,46 @@
+No - Why is this text box so small? - Thursday 15th of August 2019 12:07:20 AM
+
+
+Robert - Its S.A.A.  Sergeant at Arms - Saturday 17th of August 2019 08:02:39 AM
+
+Rubert - Class - This is my comment to you! - Tuesday 20th of August 2019 06:51:46 AM
+
+ -  - Let this be very long. Let this be very long. Let this be very long. Let this be very long. Let this be very long. Let this be very long. Let this be very long. Let this be very long. Let this be very long. Let this be very long. Let this be very long. Let this be very long. Let this be very long. Let this be very long. Let this be very long. Let this be very long. Let this be very long. Let this be very long. Let this be very long. Let this be very long. Let this be very long. Let this be very long. Let this be very long. Let this be very long. Let this be very long. YAY - Tuesday 20th of August 2019 08:41:45 AM
+
+YOU - Need to Go - TOOO SLLLEEEEEEEEPPPP - Tuesday 20th of August 2019 08:57:11 AM
+
+Momma kevin -  - Wow !   A normal text box! - Tuesday 20th of August 2019 06:10:37 PM
+
+yello - enter -  - Tuesday 20th of August 2019 07:34:58 PM
+
+Walter -  - "'; - Tuesday 20th of August 2019 08:06:15 PM
+
+ -  - <script> - Tuesday 20th of August 2019 08:07:33 PM
+
+Robert - Feedback - Current Time is 4:14pm - Tuesday 20th of August 2019 10:14:05 PM
+
+Rubert - Python - 
+
+
+
+def ender():
+  global a  
+  a = False 
+
+def main():
+  global a
+  a = True
+  while (a == True):
+    print(a)
+    print("Doing somethings")
+    UserInput = str(input("give me 1; "))
+    if UserInput == "1":
+
+      ender() 
+
+
+
+  
+  
+main() - Wednesday 4th of September 2019 01:02:41 AM
+

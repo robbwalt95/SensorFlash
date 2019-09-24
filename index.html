@@ -1,0 +1,143 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>SensorFlash Home</title>
+	<link rel="stylesheet" type="text/css" href="first.css">
+	<style> 
+		table,td { border:3px solid black;} 
+		table { border-collapse:collapse; width:75%; color:black; margin-left: auto; margin-right: auto; text-align: center;} 
+		#green { background-color: #CEFFCE; } 		
+		#blue { background-color: #CECEFF; } 		
+		#orange { background-color: #FFCC33; } 				
+		#violet { background-color: #b19cd9; } 	
+		#pink { background-color: #ffcece; } 	
+		#yellow { background-color: #FFFF66; } 		
+		#brown { background-color: #CB9696;; }
+		
+		ul {
+		list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			text-align: center;
+		}
+
+		li {
+			float: left;
+		    border-right:1px solid #bbb;
+		}
+
+		li:last-child {
+		    border-right: none;
+		}
+
+		li a {
+		    display: block;
+		  color: Black;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  font-weight: bold;
+		}
+
+		li a:hover:not(.active) {
+		  background-color: silver;
+		}
+
+
+		.active {
+		  background-color: #84CF96;;
+		}
+		
+	</style>
+</head> 
+	
+<body> 
+	<header style="background-color: #CEFFCE;">
+		
+		<h2>CTU Aurora Campus: SensorFlash <img src="images/flash2.png" height="60px" alt="Flash Logo"></h2>
+	</header>
+
+	<!-- SECTION 4: Navigation Page Links -->
+	<nav style="background-color: #C6E7CE; ">   
+		<ul>
+			<li><a class="active" href="index.html">Home</a></li>
+			  <li><a href="senate1.html">Student Senate</a></li>
+			  <li><a href="club1.html">Clubs</a></li>
+			  <li><a href="events1.html">Campus Events</a></li>
+			  <li><a href="mag1.html">Magazine</a></li>
+			  <li><a href="yaKnow1.html">Did YA know?</a></li>
+			  <li><a href="feedback.html">Feedback</a></li>
+		</ul>
+	</nav>
+
+<article style="background-color: #84CF96;">
+	<table> 
+		<tr> 
+			<td id="green" onclick="location.href='index.html'" >
+				<h1>SensorFlash</h1>
+				<h3>Click on any box or picture below to go to that page</h3>
+			</td> 
+		</tr>
+	</table>
+			
+	<table>
+		<tr> 
+			<td id="blue" onclick="location.href='senate1.html'">
+				<img src="images/Senate3.png" height="100px	" alt="Aurora Senate Logo">
+				<h1>Student Senate Page</h1>
+				
+				<p>Click here to learn about your Aurora Student Senate!</p>
+			</td> 
+			<td id="orange" onclick="location.href='events1.html'">
+			
+				<img src="images/ctulogo.png" height="125px" alt="Aurora Senate Logo">
+				<h1>Aurora CTU Campus Events</h1>
+				<p>Click here to see what upcoming events are happing at the Aurora CTU Campus</p>
+			</td> 
+		</tr> 
+
+		<tr> 
+			<td id="pink" onclick="location.href='mag1.html'">
+				
+				<img src="images/flashAnimated.gif" height="125px" width="250px" alt="Flash animation">
+				<h1>Magazine & NewsLetter </h1>
+				<p>Click here to check out the magazines and newsletters for Aurora CTU</p>
+			</td> 
+			<td id="violet" onclick="location.href='club1.html'">
+				
+				<img src="images/clublogo2.png" height="150px" >
+				<h1>Club Pages</h1>
+				<p>Click here to learn about clubs at the Aurora CTU Campus</p>
+			</td> 
+		</tr> 
+
+		<tr> 
+			<td id="yellow" onclick="location.href='yaKnow1.html'"> 
+				<br>
+				<img src="images/knowlogo.png" height="50px" alt="Know Logo">
+				<h1 >Did YA know</h1>		
+				<p>Click here to see about benefits and deals are available for you</p>
+			</td> 
+			
+			<td id="brown" onclick="location.href='feedback.html'">
+				<br>
+				<img src="images/feedbackIMG.jpg" height="50px" alt="question?">
+				<h1>Give Your Feedback</h1>
+				<p>Click here to help make this website better</p>
+			</td> 
+		</tr> 
+	</table>
+						
+			
+			
+			 
+</article>
+
+<!-- SECTION 5: Revision & Author Note -->
+<footer style="background-color: #CEFFCE;">
+	<p> Robert Walters - Edited 08/16/19</p>
+	<p> SensorFlash - CTU Aurora Student Senate </p>
+</footer>
+ </html>
+ 

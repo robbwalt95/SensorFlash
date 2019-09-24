@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- A Comment from the author -->
+<!-- html website for the CTU Senate and Clubs -->
+<!-- Submit Feedback Page -->
+
+<!--SECTION 1: Imports & Tab -->
+<html>
+<head>
+	<title>Submit Feeback</title>
+	<link rel="stylesheet" type="text/css" href="first.css">
+			<style>
+		ul {
+		list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			text-align: center;
+		}
+
+		li {
+			float: left;
+		    border-right:1px solid #bbb;
+		}
+
+		li:last-child {
+		    border-right: none;
+		}
+
+		li a {
+		    display: block;
+		  color: Black;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  font-weight: bold;
+		}
+
+		li a:hover:not(.active) {
+		  background-color: silver;
+		}
+
+
+		.active {
+		  background-color: #B87070;
+		}
+		</style>
+</head>
+
+<!-- SECTION 2: Page Visually Presented -->
+<body>
+
+<!-- SECTION 3: Top Page Banner -->
+<header style="background-color: #B87070;">
+	<h2>CTU Aurora Campus: SensorFlash <img src="images/flash2.png" height="60px" alt="Flash Logo"></h2>
+</header>
+
+<!-- SECTION 4: Navigation Page Links -->
+<nav style="background-color: #DEBEBE;">   
+		
+				<ul>
+			<li><a href="index.html">Home</a></li>
+			  <li><a href="senate1.html">Student Senate</a></li>
+			  <li><a href="club1.html">Clubs</a></li>
+			  <li><a href="events1.html">Campus Events</a></li>
+			  <li><a href="mag1.html">Magazine</a></li>
+			  <li><a href="yaKnow1.html">Did YA know?</a></li>
+			  <li><a class="active" href="feedback.html">Feedback</a></li>
+		</ul>
+</nav>
+
+<article style="background-color: #CB9696;">
+	<h1 style="text-align: center;">Submit Your Feedback<img src="images/feedbackIMG.jpg" height="50px" alt="Know Logo"></h1>
+	<br><br><br>
+	<h2>Is this website missing something? Maybe it is lacking a certain feature that would help more people out. Or do you just want to give your feedback about the site? If any of those apply to you, please fill out the fields below and submit your feedback!</h2>
+	
+<form action="myprocessingscript.php" method="POST" style="text-align: center;">
+    <input name="field1" type="text" placeholder="Your Name" />
+    <input name="field2" type="text" placeholder="Which SensorFlash Page?" />
+    <br><br>
+    
+    <textarea cols="35" rows="12" name="field3" placeholder="Your Comment"></textarea>
+    
+    
+    <input type="submit" name="submit" value="Save Data">
+</form>
+
+<h3>Thank you! We appreciate you giving us feedback! We strive to connect students to activities happening around CTU!</h3>
+</article>
+
+<!-- SECTION 5: Revision & Author Note -->
+<footer style="background-color: #B87070;">
+    <p> Robert Walters - Edited 08/16/19</p>
+	<p> SensorFlash - CTU Aurora Student Senate </p>
+</footer>
+
+<!-- SECTION  6: Final Closing -->
+</body>
+</html>
